@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/yourusername/hello-world-app.git'
+                git 'https://github.com/arunkumar13082004/hello-world-app.git'
             }
         }
         stage('Install Dependencies') {
